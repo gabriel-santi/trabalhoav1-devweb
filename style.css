@@ -194,12 +194,12 @@ button {
 }
 
 .projetos-pers {
-    background-image: url(/assets/project-pers.png);
+    background-image: url(./assets/project-pers.png);
     background-size: 70%;
 }
 
 .automacao {
-    background-image: url(/assets/home-automation.png);
+    background-image: url(./assets/home-automation.png);
     background-size: 65%;
 }
 
