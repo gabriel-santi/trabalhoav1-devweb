@@ -22,6 +22,8 @@ button {
     box-sizing: border-box;
     border-radius: 3px;
     border: 1px solid var(--font-blue);
+    min-width: 100px;
+    height: 50px;
 }
 
 .fundo-cinza {
@@ -31,7 +33,7 @@ button {
 
 .caixa {
     box-sizing: border-box;
-    padding: 40px;
+    padding: 40px 5%;
     margin: 0 auto;
 
     min-height: 500px;
@@ -63,7 +65,7 @@ button {
 .headline {
     font-family: 'Playfair Display', 'Verdana';
     text-transform: uppercase;
-    margin: 20px 0 50px 0;
+    margin: 100px 0 20px 0;
     font-weight: bold;
     font-size: 50px;
 }
@@ -72,14 +74,15 @@ button {
     content: '';
     width: 60%;
     height: 3px;
-    margin: 10px auto 0 auto;
+    margin: 5px auto 0 auto;
     background-color: currentColor;
     display: block;
 }
 
 .input-area {
-    margin: 5% auto;
+    margin: 3% auto;
     padding: 10px;
+    width: 100%;
 
     display: flex;
     flex-direction: row;
@@ -91,15 +94,14 @@ button {
 .input-area input {
     box-sizing: border-box;
     padding: 10px;
-    height: 50px;
-    width: 270px;
+    width: 35%;
+    min-width: 150px;
 }
 
 .btn-contato {
     background-color: var(--font-blue);
-    width: 200px;
-    height: 50px;
     color: #fff;
+    width: 25%;
 }
 
 .btn-contato:hover {
@@ -112,17 +114,17 @@ button {
 
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-end;
-    gap: 15%;
+    gap: 10%;
 }
 
 .redirects a {
     box-sizing: border-box;
 
-    max-width: 30%;
-    padding: 5px 15px;
+    min-width: 200px;
+    width: 25%;
+    padding: 1% 2%;
     margin-bottom: 2%;
     border-radius: 2px;
 
@@ -135,7 +137,7 @@ button {
 
 .redirects a:hover {
     color: #fff;
-    box-shadow: inset 200px 0 0 0 var(--font-blue);
+    box-shadow: inset 280px 0 0 0 var(--font-blue);
 }
 
 .vantagens {
@@ -232,8 +234,8 @@ button {
     min-width: 330px;
     min-height: 200px;
     border: 1px solid var(--border);
-    width: 35%;
-    height: 60%;
+    width: 30%;
+    height: 100%;
 }
 
 .img-escritorio {
@@ -247,6 +249,7 @@ button {
     width: 80%;
     padding: 40px 20px;
     justify-content: space-around;
+    gap: 30px;
 }
 
 .desc-como-func {
